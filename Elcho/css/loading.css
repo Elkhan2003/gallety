@@ -1,12 +1,15 @@
 .preloader {
-  position: absolute;
+  position: fixed;
+  overflow: hidden;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background-color: white;
 }
-
+.preloader--hide{
+  display: none;
+}
 .preloader__loader,
 .preloader__percent {
   position: absolute;
